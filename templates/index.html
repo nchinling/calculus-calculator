@@ -22,7 +22,8 @@
             <div class="col-md-6">
                 <form method="POST" action="/" onsubmit="return validateForm();">
                     <label for="expression">Enter a mathematical expression in terms of <i>x</i>:</label>
-                    <input class="form-control" type="text" id="expression" name="expression" required>
+                    <input class="form-control" type="text" id="expression" name="expression" required
+                        value="{{ request.form['expression'] if request.form['expression'] else '' }}">
                     <br>
 
                     <input class="form-check-input" type="checkbox" id="derivative" name="operation" value="derivative">

@@ -2,8 +2,6 @@ from flask import Flask, render_template, request
 import sympy as sp
 
 app = Flask(__name__)
-app.debug = True
-
 
 x = sp.symbols('x')
 
