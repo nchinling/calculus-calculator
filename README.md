@@ -45,10 +45,6 @@ To use the calculator through the web interface:
 4. Run the web interface with `flask run`.
 5. Access the web interface in your browser at `http://127.0.0.1:5000/`.
 
-## Screenshots
-
-Include screenshots of the command-line interface and web interface to help users understand how to use the calculator.
-
 ## Acknowledgments
 
 - The calculator uses SymPy for symbolic mathematics.
